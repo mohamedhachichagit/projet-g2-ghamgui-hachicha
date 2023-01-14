@@ -6,7 +6,7 @@ import * as eva from "@eva-design/eva";
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import WelcomeComponent from "./screen/WelcomeComponent";
-import HomeScreen from "./screen/HomeScreen";
+import {HomeScreen} from "./screen/HomeScreen";
 
 
 

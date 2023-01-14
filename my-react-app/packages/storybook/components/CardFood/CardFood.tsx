@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image } from 'react-native';
+import {  Text, View, Image } from 'react-native';
 import React from 'react';
 
 type CardFoodProps = {
@@ -30,4 +30,4 @@ const CardFood: React.FC<CardFoodProps> = (props) => {
 
 export default CardFood;
 
-const styles = StyleSheet.create({});
+//const styles = StyleSheet.create({});

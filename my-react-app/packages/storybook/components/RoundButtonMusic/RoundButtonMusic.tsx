@@ -1,6 +1,6 @@
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { StyleSheet, TouchableOpacity, View } from 'react-native'
 import React from 'react'
-import { AntDesign, Ionicons, Entypo } from '@expo/vector-icons';
+//import { AntDesign, Ionicons, Entypo } from '@expo/vector-icons';
 
 type RoundButtonMusicProps = {
     backgroundColor: string

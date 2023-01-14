@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import {  Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 
 type UpNextButtonProps = {
@@ -10,7 +10,7 @@ type UpNextButtonProps = {
 }
 
 const UpNextButton: React.FC<UpNextButtonProps> = (props) => {
-    const { backgroundColor, textColor, borderRadius, text, type } = props
+    const { backgroundColor, textColor, text, type } = props
 
     const styleComponent = {
        container : type =='link' ? {} : { backgroundColor : backgroundColor},
@@ -28,4 +28,4 @@ const UpNextButton: React.FC<UpNextButtonProps> = (props) => {
 
 export default UpNextButton
 
-const styles = StyleSheet.create({})
+//const styles = StyleSheet.create({})

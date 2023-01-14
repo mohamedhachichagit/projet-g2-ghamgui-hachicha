@@ -1,7 +1,7 @@
 {
-  "name": "@my-workspace/my-ui",
+  "name": "@mohamedhachichagit/my-ui",
   "description": "template for react native storybook 6 and react native web",
-  "version": "1.0.8",
+  "version": "1.2.4",
   "files": [
     "dist"
   ],
@@ -10,7 +10,11 @@
   "browser": "dist/index.js",
   "license": "MIT",
   "publishConfig": {
-    "@tekab-dev-team:registry": " https://gitlab.com/api/v4/projects/40273947/packages/npm/"
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedhachichagit/my-ui.git"
   },
   "scripts": {
     "start": "expo start",
@@ -37,7 +41,7 @@
     "@expo/webpack-config": "^0.17.3",
     "@react-native-async-storage/async-storage": "~1.17.3",
     "@react-native-community/datetimepicker": "6.2.0",
-    "@react-native-community/slider": "4.2.3",
+    "@react-native-community/slider": "^4.2.3",
     "@ui-kitten/components": "^5.1.2",
     "expo": "^46.0.0",
     "expo-linear-gradient": "^11.4.0",
@@ -45,6 +49,7 @@
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-native": "0.69.6",
+    "react-native-progress": "^5.0.0",
     "react-native-safe-area-context": "^4.4.1",
     "react-native-svg": "^13.5.0",
     "react-native-web": "~0.18.7"
