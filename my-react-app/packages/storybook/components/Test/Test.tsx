@@ -35,7 +35,7 @@ const Test = () => {
                 isPlay ?
                     <RoundButtonMusic
                         onClickButton={onChangeStateButton}
-                        backgroundColor="#725AC1"
+                        backgroundColor="#EE4C69"
                         icon=<AntDesign name="play" size={24} color="#191B28" /> /> :
 
                     <RoundButtonMusic

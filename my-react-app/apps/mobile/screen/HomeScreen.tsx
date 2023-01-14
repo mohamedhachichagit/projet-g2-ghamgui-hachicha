@@ -23,11 +23,11 @@ export const HomeScreen = ({ navigation }) => {
                 />
             </View>
             <View>
-                <SliderMusic 
+                {/* <SliderMusic 
                     durationMax = {100}
                     title = "test"
                     author = "hi"
-                />
+                /> */}
             </View>
         </View>
     )

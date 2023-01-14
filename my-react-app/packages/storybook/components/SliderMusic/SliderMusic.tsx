@@ -2,7 +2,7 @@ import { Button, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
-//import Slider from '@react-native-community/slider';
+import Slider from '@react-native-community/slider';
 
 
 type SlideMusicProps = {
@@ -57,16 +57,16 @@ export const SliderMusic : React.FC<SlideMusicProps> = (props) => {
     <View>
       <Text>{title}</Text>
       <Text style={styles.authorName}>{author}</Text>
-      {/* <Slider
+       <Slider
       style={{width: "100%", height: 40}}
       minimumValue={0}
       maximumValue={durationMax}
-      minimumTrackTintColor="#725AC1"
+      minimumTrackTintColor="#EE4C69"
       maximumTrackTintColor="#FFFFFF66"
-      thumbTintColor="#725AC1"
+      thumbTintColor="#EE4C69"
       onValueChange={(v)=>{setCurrentDuration(v)}}
       value = {currentDuration}
-/> */}
+/> 
 <View style={styles.times}>
           <Text>{secondsToHms(currentDuration)}</Text>
           <Text>{secondsToHms(durationMax)}</Text>
