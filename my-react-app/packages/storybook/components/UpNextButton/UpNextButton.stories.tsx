@@ -13,10 +13,10 @@ const UpNextButtonMeta: ComponentMeta<typeof UpNextButton> = {
        }
     },
     args: {
-        backgroundColor: 'red',
-        textColor: '#FFFF00',
+        backgroundColor: '#2F3142',
+        textColor: '#C4C4C4',
         borderRadius: '10',
-        text: 'Hello',
+        text: 'Up Next',
         type: 'button'
     }
 }
